@@ -1,0 +1,142 @@
+Version: 1
+# top level packages
+
+Packages:
+  - rmarkdown
+  - knitr
+  - tidyverse
+  - shiny
+  - devtools
+  - RODBC
+  - here
+  - compareDF
+  - glue
+  - dplyr
+  - readxl
+  - googledrive
+  - googlesheets4
+  - heatmaply
+  - htmltools
+  - forcats
+  - purrr
+  - rlang
+  - lubridate
+  - tibble
+  - maps
+  - tidyr
+  - testthat
+  - beepr
+  - checkmate
+  - cowplot
+  - data.table
+  - desc
+  - DT
+  - formattable
+  - geosphere
+  - ggiraph
+  - ggmap
+  - ggplot2
+  - ggplotify
+  - googleVis
+  - gt
+  - htmlwidgets
+  - httr
+  - knitr
+  - leaflet
+  - magick
+  - magrittr
+  - networkD3
+  - openxlsx
+  - pals
+  - readr
+  - rmarkdown
+  - rvest
+  - scales
+  - sf
+  - stringr
+  - usethis
+  - visNetwork
+  - xml2
+  - cld3
+  - dismo
+  - gapminder
+  - Matrix
+  - RColorBrewer
+  - sentimentr
+  - tmaptools
+  - xlsx
+  - praise
+  - quanteda
+  - jsonlite
+  - polite
+  - DataExplorer
+  - countrycode
+  - twitteR
+  - stringi
+  - gtools
+  - randomNames
+  - flexdashboard
+  - gghighlight
+  - ggeasy
+  - ggrepel
+  - plyr
+  - uuid
+  - akima
+  - bitops
+  - broom
+  - BTM
+  - caret
+  - ctv
+  - data.tree
+  - FAOSTAT
+  - fixerapi
+  - furrr
+  - ggraph
+  - googlesheets
+  - igraph
+  - lime
+  - networktools
+  - nycflights13
+  - pdftools
+  - plotly
+  - pROC
+  - qdapDictionaries
+  - qrcode
+  - RCurl
+  - readtext
+  - tidyverse
+  - ROCR
+  - shiny
+  - stopwords
+  - syuzhet
+  - textplot
+  - tidytext
+  - tm
+  - topicmodels
+  - udpipe
+  - sinew
+  - wordcloud
+  - xgboost
+  - XML
+  - SnowballC
+  - naniar
+  - remotes
+  - tidyselect
+  - spelling
+  - stringdist
+  - translateR
+  - SentimentAnalysis
+
+# any repositories, order matters
+Repos:
+  - gh_dev: "https://metrumresearchgroup.github.io/rpkgs/gh_dev"
+  - CRAN: "https://cloud.r-project.org/"
+
+# path to install packages to
+Library: "."
+
+# package specific customizations
+Customizations:
+  Packages:
+    - tidyverse:
+        Suggests: true
